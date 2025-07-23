@@ -14,7 +14,7 @@ public class Ventana extends JFrame {
         setSize(800, 600);
         setLocationRelativeTo(null);
 
-        // Men�
+
         JMenuBar menuBar = new JMenuBar();
 
         JMenu menuTrabajadores = new JMenu("Gestion de Trabajadores");
@@ -35,7 +35,6 @@ public class Ventana extends JFrame {
 
         setJMenuBar(menuBar);
 
-        // Pesta�as
         tabbedPane = new JTabbedPane();
         tabbedPane.add("Trabajadores", crearPanelTrabajadores());
         tabbedPane.add("Clientes", crearPanelClientes());
